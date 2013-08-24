@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="#18243B" 
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp">
+    
+    <Button 
+        android:id="@+id/new_class_btn"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:text="新课"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn"
+        />
+    
+   <Button 
+        android:id="@+id/new_exam_btn"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:text="考试"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/new_class_btn"
+        android:background="@drawable/btn"
+        android:layout_marginTop="10dp"
+        />
+        
+    <Button 
+        android:id="@+id/new_holiday_btn"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:text="假期"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/new_exam_btn"
+        android:background="@drawable/btn"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
